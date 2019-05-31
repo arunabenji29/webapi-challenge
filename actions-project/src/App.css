@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+.projects{
+  margin: 36px 20% 0 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction:column;
+  cursor: pointer;
+  background-color: #8FBC8F;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.project {
+  width: 250px;
+  margin: 20px 20% 32px;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.action {
+  width: 60%;
+  margin: 20px 20% 32px;
+  cursor: pointer;
+  background-color: #EEE8AA;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
