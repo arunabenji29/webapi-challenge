@@ -12,3 +12,8 @@ I need this code, just don't know where, perhaps should make some middleware, do
 
 Go code!
 */
+const server = require('./api/server.js')
+
+server.listen(3200, ()=> {
+    console.log('API running at port 3200')
+})
